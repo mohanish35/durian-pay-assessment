@@ -6,7 +6,6 @@
   "scripts": {
     "start": "node src/",
     "lint": "eslint src/**",
-    "pretest": "npm run lint",
     "test": "jest --runInBand src",
     "coverage": "jest --collectCoverageFrom=src/**.js --coverage src"
   },
